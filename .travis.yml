@@ -1,0 +1,11 @@
+language: c
+script: asdf plugin-test golang-dep $TRAVIS_BUILD_DIR 'dep version'
+before_script:
+- git clone https://github.com/asdf-vm/asdf.git
+- ". asdf/asdf.sh"
+os:
+- linux
+- osx
+env:
+  global:
+    secure: PymiQf4j/pIyMzZn7n84AJXUFMmwSDI3eJgIajcGaH302VT/wuEuGGAWcJgMgLvFETFd/S1jfVPsx+ruioNRGzpjfeQ2q2pJTmSIUWwdQFSBjqWdKibknlUEfEdY/zaqHxD8A/762guAGWlJK+94xAe1ZX9pWwh80Z6fLgvwO88j+mqVHV5b1C1UVQvqWhsSqn/SEu7hKtIelttnk9NS3xChnMDHM98EKk0jB8sxorXl44hQH+5gziSKtu2OYtoL6/TnWLDRHcJDjAUhmjx2lbkvXk+LAk3nqJnVlMJeQ1jn4XrT5A8OT+TqiIf99wSkGcHgkvqapUvdXCCY7pgx+tJVP+VmCFF1bZ14BkJyfyzR5LUPaPt5eURAm2OOGHVz0IxovK09CdWFao+j4YUlIe7GC24Fi7xQKmF7MUOLyDx4Ha/rcNDhH5F0YqeJ3k9kawk8fKOEiUwNf+iUODRY/TFuOsTFlEiPXy63QvTKpBf7V0qRDnRHndTPSIssJYD5jGoIBmvHm62bvlztWDaDTEVEX8aI5yTtl2/XznQiEAtZqtEm/BAlDiLLppA5FTxS4b08y8KyyqmehsqJy+tA8t7dYt/CMMnVm8WHm2DO276cRDditJoNb0fSEymnuKP1HrqdHh8WkKu0RBO2kx43e7bKqjJCZzRnxRBv390Lm3o=

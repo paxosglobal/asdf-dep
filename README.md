@@ -6,6 +6,15 @@ Golang [dep](https://github.com/golang/dep) plugin for [asdf](https://github.com
 
 ## Install
 
+This plugin is in the official [asdf-plugins](https://github.com/asdf-vm/asdf-plugins)
+repository, so you can install like:
+
+```
+asdf plugin-add dep
+```
+
+If you want to manually specify this repo, you can run:
+
 ```
 asdf plugin-add dep https://github.com/paxosglobal/asdf-dep.git
 ```
